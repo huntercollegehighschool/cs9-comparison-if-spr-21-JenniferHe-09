@@ -22,4 +22,16 @@ Enter a month:  Saturday
 not a month
 '''
 
-#start writing your code below
+month = input("Enter a month: ")
+
+if month == "January" or month == "january" or month == "March" or month == "march" or month == "May" or month == "may" or month == "July" or month == "july" or month == "August" or month == "august" or month == "October" or month == "october" or month == "December" or month == "december":
+  print("31")
+
+elif month == "April" or month == "april" or month == "June" or month == "june" or month == "September" or month == "september" or month == "November" or month == "november":
+  print("30")
+
+elif month == "February" or month == "february":
+  print("28 or 29")
+
+else:
+  print("not a month")
